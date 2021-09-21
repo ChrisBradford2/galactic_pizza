@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'ac04808fa7faa99b12724e21c31783eefb963f39',
+        'reference' => '860a20ac82cab8e7de4e712ed70e61a75c4d6350',
         'name' => 'drupal/recommended-project',
         'dev' => true,
     ),
@@ -245,6 +245,15 @@
             'install_path' => __DIR__ . '/../../web/themes/contrib/bootstrap',
             'aliases' => array(),
             'reference' => '8.x-3.23',
+            'dev_requirement' => false,
+        ),
+        'drupal/bootstrap_layouts' => array(
+            'pretty_version' => '5.2.0',
+            'version' => '5.2.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/bootstrap_layouts',
+            'aliases' => array(),
+            'reference' => '8.x-5.2',
             'dev_requirement' => false,
         ),
         'drupal/breakpoint' => array(
@@ -766,7 +775,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'ac04808fa7faa99b12724e21c31783eefb963f39',
+            'reference' => '860a20ac82cab8e7de4e712ed70e61a75c4d6350',
             'dev_requirement' => false,
         ),
         'drupal/responsive_image' => array(
