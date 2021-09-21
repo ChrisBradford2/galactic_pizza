@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '860a20ac82cab8e7de4e712ed70e61a75c4d6350',
+        'reference' => '7d6fc03485ced5886b3a14a79fa2bc692ca61156',
         'name' => 'drupal/recommended-project',
         'dev' => true,
     ),
@@ -559,6 +559,15 @@
                 0 => '9.2.6',
             ),
         ),
+        'drupal/facets' => array(
+            'pretty_version' => '1.8.0',
+            'version' => '1.8.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/facets',
+            'aliases' => array(),
+            'reference' => '8.x-1.8',
+            'dev_requirement' => false,
+        ),
         'drupal/field' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -775,7 +784,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '860a20ac82cab8e7de4e712ed70e61a75c4d6350',
+            'reference' => '7d6fc03485ced5886b3a14a79fa2bc692ca61156',
             'dev_requirement' => false,
         ),
         'drupal/responsive_image' => array(
@@ -795,6 +804,15 @@
             'replaced' => array(
                 0 => '9.2.6',
             ),
+        ),
+        'drupal/search_api' => array(
+            'pretty_version' => '1.20.0',
+            'version' => '1.20.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/search_api',
+            'aliases' => array(),
+            'reference' => '8.x-1.20',
+            'dev_requirement' => false,
         ),
         'drupal/serialization' => array(
             'dev_requirement' => false,
