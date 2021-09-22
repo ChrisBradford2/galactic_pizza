@@ -67,7 +67,7 @@ Give a ⭐️ if this project helped you!
 
 Copyright © 2021 [Nicolas Barbarisi](https://github.com/ChrisBradford2).
 
-This project is [GNU ](https://github.com/ChrisBradford2/galactic_pizza/blob/main/LICENSE) licensed.
+This project is [GLP-3.0](https://github.com/ChrisBradford2/galactic_pizza/blob/main/LICENSE) licensed.
 
 ***
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
