@@ -1,11 +1,11 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => 'dev-master',
-        'version' => 'dev-master',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'c2ad3cd711b60497d8139502b6248a037261b9b1',
+        'reference' => '9035889ee8b25f11e3fec24cebd9ab8c983e8323',
         'name' => 'drupal/recommended-project',
         'dev' => true,
     ),
@@ -784,6 +784,15 @@
                 0 => '9.2.6',
             ),
         ),
+        'drupal/override_node_options' => array(
+            'pretty_version' => '2.6.0',
+            'version' => '2.6.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/override_node_options',
+            'aliases' => array(),
+            'reference' => '8.x-2.6',
+            'dev_requirement' => false,
+        ),
         'drupal/page_cache' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -815,12 +824,12 @@
             ),
         ),
         'drupal/recommended-project' => array(
-            'pretty_version' => 'dev-master',
-            'version' => 'dev-master',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'c2ad3cd711b60497d8139502b6248a037261b9b1',
+            'reference' => '9035889ee8b25f11e3fec24cebd9ab8c983e8323',
             'dev_requirement' => false,
         ),
         'drupal/responsive_image' => array(
