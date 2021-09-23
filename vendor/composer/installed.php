@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '9035889ee8b25f11e3fec24cebd9ab8c983e8323',
+        'reference' => '83a800eb0d9f5dc683c0b2a3cfe8b49a2f274eb9',
         'name' => 'drupal/recommended-project',
         'dev' => true,
     ),
@@ -766,6 +766,15 @@
                 0 => '9.2.6',
             ),
         ),
+        'drupal/multiple_registration' => array(
+            'pretty_version' => '3.0.0',
+            'version' => '3.0.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/multiple_registration',
+            'aliases' => array(),
+            'reference' => '3.0.0',
+            'dev_requirement' => false,
+        ),
         'drupal/node' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -829,7 +838,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '9035889ee8b25f11e3fec24cebd9ab8c983e8323',
+            'reference' => '83a800eb0d9f5dc683c0b2a3cfe8b49a2f274eb9',
             'dev_requirement' => false,
         ),
         'drupal/responsive_image' => array(
