@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '83285557307c6a983e923a3a79b70352ef8fc182',
+        'reference' => 'd77123afc398276ad0470dbbb4fc12b5abe7460b',
         'name' => 'drupal/recommended-project',
         'dev' => true,
     ),
@@ -649,6 +649,68 @@
                 0 => '9.2.6',
             ),
         ),
+        'drupal/gin' => array(
+            'pretty_version' => 'dev-3.x',
+            'version' => 'dev-3.x',
+            'type' => 'drupal-theme',
+            'install_path' => __DIR__ . '/../../web/themes/contrib/gin',
+            'aliases' => array(
+                0 => '3.x-dev',
+            ),
+            'reference' => '7d03012b7d92043ece3a24ea9d78db895902ca6b',
+            'dev_requirement' => false,
+        ),
+        'drupal/gin_gutenberg' => array(
+            'pretty_version' => 'dev-1.0.x',
+            'version' => 'dev-1.0.x',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/gin_gutenberg',
+            'aliases' => array(
+                0 => '1.0.x-dev',
+            ),
+            'reference' => 'a38d6960b55db51ca9959d2628b7c5a1a8affdf0',
+            'dev_requirement' => false,
+        ),
+        'drupal/gin_login' => array(
+            'pretty_version' => '1.0.0',
+            'version' => '1.0.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/gin_login',
+            'aliases' => array(),
+            'reference' => '8.x-1.0',
+            'dev_requirement' => false,
+        ),
+        'drupal/gin_permissions' => array(
+            'pretty_version' => 'dev-1.0.x',
+            'version' => 'dev-1.0.x',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/gin_permissions',
+            'aliases' => array(
+                0 => '1.0.x-dev',
+            ),
+            'reference' => 'e36415560bcce9e7925e1115ace0439a43da8d61',
+            'dev_requirement' => false,
+        ),
+        'drupal/gin_toolbar' => array(
+            'pretty_version' => 'dev-1.x',
+            'version' => 'dev-1.x',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/gin_toolbar',
+            'aliases' => array(
+                0 => '1.x-dev',
+            ),
+            'reference' => '6924801f4cf54544ea80eb11a961f2cbf0fc4702',
+            'dev_requirement' => false,
+        ),
+        'drupal/gutenberg' => array(
+            'pretty_version' => '2.1.0',
+            'version' => '2.1.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/gutenberg',
+            'aliases' => array(),
+            'reference' => '8.x-2.1',
+            'dev_requirement' => false,
+        ),
         'drupal/hal' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -856,7 +918,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '83285557307c6a983e923a3a79b70352ef8fc182',
+            'reference' => 'd77123afc398276ad0470dbbb4fc12b5abe7460b',
             'dev_requirement' => false,
         ),
         'drupal/responsive_image' => array(
@@ -975,6 +1037,15 @@
             'replaced' => array(
                 0 => '9.2.6',
             ),
+        ),
+        'drupal/twig_tweak' => array(
+            'pretty_version' => '3.1.2',
+            'version' => '3.1.2.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/twig_tweak',
+            'aliases' => array(),
+            'reference' => '3.1.2',
+            'dev_requirement' => false,
         ),
         'drupal/update' => array(
             'dev_requirement' => false,

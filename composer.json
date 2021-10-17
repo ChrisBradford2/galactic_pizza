@@ -26,10 +26,16 @@
         "drupal/entity_browser": "^2.6",
         "drupal/entity_embed": "^1.2",
         "drupal/facets": "^1.8",
+        "drupal/gin": "3.x-dev@dev",
+        "drupal/gin_gutenberg": "1.0.x-dev@dev",
+        "drupal/gin_login": "1.0",
+        "drupal/gin_permissions": "1.0.x-dev@dev",
+        "drupal/gin_toolbar": "1.x-dev@dev",
         "drupal/multiple_registration": "^3.0",
         "drupal/override_node_options": "^2.6",
         "drupal/paragraphs": "^1.12",
         "drupal/search_api": "^1.20",
+        "drupal/twig_tweak": "^3.1",
         "drush/drush": "^10.6"
     },
     "conflict": {
