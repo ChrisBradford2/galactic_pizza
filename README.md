@@ -4,7 +4,7 @@
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/ChrisBradford2/galactic_pizza/graphs/commit-activity)
 [![License: MIT ](https://img.shields.io/github/license/ChrisBradford2/galactic_pizza)](https://github.com/ChrisBradford2/galactic_pizza/blob/master/LICENSE)
 
-> **Galactic Pizza** est un site de pizzeria (fictive) créée en tant qu'exercice pour Drupal 8.
+> **Galactic Pizza** est un site de pizzeria (fictive) créée en tant qu'exercice pour Drupal 9.
 
 ## Requirement
 
